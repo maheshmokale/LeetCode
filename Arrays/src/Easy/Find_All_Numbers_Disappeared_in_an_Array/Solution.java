@@ -1,4 +1,4 @@
-package Find_All_Numbers_Disappeared_in_an_Array;
+package Easy.Find_All_Numbers_Disappeared_in_an_Array;
 
 import java.util.ArrayList;
 import java.util.HashSet;

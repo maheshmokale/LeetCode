@@ -1,8 +1,6 @@
-package Pascals_Triangle_II;
+package Easy.Pascals_Triangle_II;
 
 import java.util.*;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 
 public class Solution {
     public static void main(String[] args){

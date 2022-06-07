@@ -1,4 +1,4 @@
-package Range_Sum_Query_Immutable;
+package Easy.Range_Sum_Query_Immutable;
 
 class NumArray {
     final int[] numVal;

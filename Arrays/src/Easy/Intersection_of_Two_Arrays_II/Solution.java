@@ -1,4 +1,4 @@
-package Intersection_of_Two_Arrays_II;
+package Easy.Intersection_of_Two_Arrays_II;
 
 import java.util.*;
 

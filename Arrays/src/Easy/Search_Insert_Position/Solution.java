@@ -1,4 +1,4 @@
-package Search_Insert_Position;
+package Easy.Search_Insert_Position;
 
 public class Solution {
     public static void main(String[] args){

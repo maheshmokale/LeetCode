@@ -1,4 +1,4 @@
-package Single_Number;
+package Easy.Single_Number;
 
 class Solution {
  public static void main(String[] args){

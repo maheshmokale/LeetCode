@@ -1,4 +1,4 @@
-package Remove_Duplicates_from_Sorted_Array;
+package Easy.Remove_Duplicates_from_Sorted_Array;
 
 public class Solution {
 

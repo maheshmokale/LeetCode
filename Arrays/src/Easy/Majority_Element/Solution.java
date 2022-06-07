@@ -1,4 +1,4 @@
-package Majority_Element;
+package Easy.Majority_Element;
 
 import java.util.HashMap;
 import java.util.Map;

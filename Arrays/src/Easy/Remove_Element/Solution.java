@@ -1,4 +1,4 @@
-package Remove_Element;
+package Easy.Remove_Element;
 
 public class Solution {
     public static void main(String[] args){

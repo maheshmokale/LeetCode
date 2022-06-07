@@ -1,4 +1,4 @@
-package Move_Zeroes;
+package Easy.Move_Zeroes;
 
 class Solution {
     public void moveZeroes(int[] nums) {

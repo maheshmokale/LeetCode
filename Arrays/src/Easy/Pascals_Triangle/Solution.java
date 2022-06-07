@@ -1,8 +1,6 @@
-package Pascals_Triangle;
+package Easy.Pascals_Triangle;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 
 public class Solution {
