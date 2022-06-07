@@ -1,4 +1,4 @@
-package Best_Time_To_Buy_And_Sell_Stock;
+package Easy.Best_Time_To_Buy_And_Sell_Stock;
  class Solution {
     public static void main(String[] args){
         Solution solution=new Solution();

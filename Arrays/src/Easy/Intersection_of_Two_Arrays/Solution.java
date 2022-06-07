@@ -1,8 +1,6 @@
-package Intersection_of_Two_Arrays;
+package Easy.Intersection_of_Two_Arrays;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 class Solution {

@@ -1,6 +1,4 @@
-package Plus_One;
-
-import java.util.Arrays;
+package Easy.Plus_One;
 
 public class Solution {
     public static void main(String[] args){
