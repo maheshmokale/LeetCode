@@ -1,4 +1,4 @@
-package Palindrome_Linked_List;
+package Easy.Palindrome_Linked_List;
 
 
 //  Definition for singly-linked list.

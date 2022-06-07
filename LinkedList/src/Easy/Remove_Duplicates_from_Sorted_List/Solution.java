@@ -1,4 +1,4 @@
-package Remove_Duplicates_from_Sorted_List;
+package Easy.Remove_Duplicates_from_Sorted_List;
 
 
 // Definition for singly-linked list.

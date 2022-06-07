@@ -1,4 +1,4 @@
-package Merge_Two_Sorted_Lists;
+package Easy.Merge_Two_Sorted_Lists;
 
 
 

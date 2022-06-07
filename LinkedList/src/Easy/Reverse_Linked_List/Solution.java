@@ -1,8 +1,9 @@
-package Remove_Linked_List_Elements;
+package Easy.Reverse_Linked_List;
 
 
- // Definition for singly-linked list.
- class ListNode {
+
+//Definition for singly-linked list.
+  class ListNode {
       int val;
       ListNode next;
       ListNode() {}
@@ -11,25 +12,24 @@ package Remove_Linked_List_Elements;
   }
 
 class Solution {
-    public ListNode removeElements(ListNode head, int val) {
-        if(head==null) return null;
-        while(head!=null && head.val==val)
-            head=head.next;
-        ListNode temp=head;
-        while(temp!=null && temp.next!=null){
-            if(temp.next.val==val){
-                temp.next=temp.next.next;
-            }
-            else
-                temp=temp.next;
+      //"1 2 3 4 5"
+    public ListNode reverseList(ListNode head) {
+        if(head==null || head.next==null) return head;
+        ListNode prev=null;
+        ListNode next=null;
+        ListNode curr=head;
+        while (curr!=null){
+            next=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
         }
-        return head;
+        return  prev;
     }
     public static void main(String[] args){
         Solution solution=new Solution();
-        ListNode head=createLinkedList(new int[]{7,7,7,7});
-        int val=7;
-        solution.removeElements(head ,val);
+        ListNode head=createLinkedList(new int[]{});
+        solution.reverseList(head);
     }
     public static ListNode createLinkedList(int[] list){
         ListNode temp=null;
