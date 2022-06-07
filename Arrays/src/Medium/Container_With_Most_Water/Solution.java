@@ -1,4 +1,4 @@
-package Container_With_Most_Water;
+package Medium.Container_With_Most_Water;
 
 class Solution {
     public int maxArea(int[] height) {
@@ -6,7 +6,7 @@ class Solution {
         int j=height.length-1;
         int maxArea=Integer.MIN_VALUE;
         while(i<j){
-            int area=(Math.abs(i-j)*Math.min(height[i],height[j]));
+            int area=((j-i)*Math.min(height[i],height[j]));
             maxArea=Math.max(maxArea,area);
             if(height[i]<height[j])
                 i++;
