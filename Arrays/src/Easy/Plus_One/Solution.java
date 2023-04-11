@@ -48,5 +48,37 @@ public class Solution {
 
        return digits;
     }
+    public int[] plusOneNew(int[] digits) {
+        if(digits.length==0) return digits;
+        if(digits[digits.length-1]<9){
+            digits[digits.length-1]+=1;
+            return digits;
+        }
+        digits[digits.length-1]=0;
+        int carry=1;
+        int i=digits.length-2;
+        while(i>=0){
+            if(digits[i]+carry>9){
+                digits[i]=(digits[i]+carry)%10;
+                carry=1;
+            }
+            else{
+                digits[i]+=carry;
+                carry=0;
+            }
+            i--;
+        }
+        int[] newArr=new int[digits.length+1];
+        i=digits.length;
+        if(carry>=1){
+            while(i>=1){
+                newArr[i]=digits[i-1];
+                i--;
+            }
+            newArr[0]=carry;
+            return newArr;
+        }
+        return digits;
+    }
 
 }
