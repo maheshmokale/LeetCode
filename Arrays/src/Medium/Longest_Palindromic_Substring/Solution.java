@@ -19,10 +19,7 @@ class Solution {
         }
         return s.substring(range[0],range[1]+1);
     }
-    public static void main(String[] args){
-        Solution solution=new Solution();
-        System.out.println(solution.longestPalindrome("babad"));
-    }
+
     public boolean isPalindrom(String s,int i,int j){
         while (i<j){
             if(s.charAt(i)==s.charAt(j)){
@@ -34,6 +31,11 @@ class Solution {
         }
         return true;
     }
+    public static void main(String[] args){
+        Solution solution=new Solution();
+        System.out.println(solution.longestPalindrome("babad"));
+    }
+
 
 
 }
